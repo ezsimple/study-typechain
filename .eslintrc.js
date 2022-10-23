@@ -14,5 +14,8 @@ module.exports = {
   rules: {
     semi: 1,
     'comma-dangle': 0,
+    'no-unused-vars': 'off',
+    '@typescript-eslint/no-unused-vars': ['error'],
+    '@typescript-eslint/semi': ['always'],
   },
 };
